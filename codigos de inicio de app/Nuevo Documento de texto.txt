@@ -1,0 +1,10 @@
+1. Python -m venv venv
+2. venv/scripts/actívate o en Linux source ven/bin/activate
+3.uvicorn main:app --reload --port 5000 --host 0.0.0.0
+4.pip install fastapi
+5.python -m pip install --upgrade pip // en caso de desactualización 
+5.pip install uvicorn
+5.control+c para salir de aplicación 
+6.creacion de main.py en carpeta ven
+7.para iniciar app uvicorn main:app
+

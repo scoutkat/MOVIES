@@ -1,0 +1,22 @@
+1. Python -m venv venv
+2. venv/scripts/actívate o en Linux source ven/bin/activate
+3.uvicorn main:app --reload --port 5000 --host 0.0.0.0
+4.pip install fastapi
+5.python -m pip install --upgrade pip // en caso de desactualización 
+5.pip install uvicorn
+5.control+c para salir de aplicación 
+6.creacion de main.py en carpeta ven
+7.para iniciar app uvicorn main:app
+8.uvicorn main:app --reload --port 5000 --host 0.0.0.0
+9.uvicorn main:app --reload para recargar
+10.uvicorn main:app --reload --port 5000 para puerto 5000 en este casi
+11.uvicorn main:app --reload --port 4000 --host 0.0.0.0 // para todos los dispositivos de red
+12.http://127.0.0.1:5000/docs#/movies/get_movies_movies_get- //en este caso se agrega docs para ver respúestas
+13. funcion para generar token pip install pyjwt
+14pip install sqlalchemy
+14. pip freeze > requirements.txt para que se muevan carpetas pycache venv database.sqlite
+15.git init --initial-branch=main git lab iniciazion
+16.git remote add origin https://gitlab.com/fastapi2052935/movies2
+
+
+ 
